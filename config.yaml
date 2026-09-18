@@ -3,9 +3,9 @@ meta:
   substituting_steps:
     Checker.DisconnectedPins: null
 
-DESIGN_NAME: tt_um_fabulous_ihp_26a
+DESIGN_NAME: tt_um_fabulous_ihp_26b
 VERILOG_FILES:
-  - dir::src/tt_um_fabulous_ihp_26a.sv
+  - dir::src/tt_um_fabulous_ihp_26b.sv
   - dir::ip/fabric_config/fabric_config.sv
   - dir::ip/fabric_bitbang/fabric_bitbang.sv
   

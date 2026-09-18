@@ -56,4 +56,4 @@ pdk::ihp-sg13*:
     RT_MAX_LAYER: Metal5
     
     # Timing model generation
-    #FABULOUS_TIMING_MODEL: PHYSICAL
+    FABULOUS_TIMING_MODEL: PHYSICAL

@@ -9,7 +9,7 @@
   };
 
   inputs = {
-    nix-eda.url = "github:fossi-foundation/nix-eda/6.0.2";
+    nix-eda.url = "github:fossi-foundation/nix-eda/7.8.0";
     flake-utils.url = "github:numtide/flake-utils";
     flake-compat.url = "https://flakehub.com/f/edolstra/flake-compat/1.tar.gz";
   };
@@ -40,12 +40,12 @@
           ))
           (final: prev: {
             nextpnr = prev.nextpnr.overrideAttrs {
-              version = "f00c382a";
+              version = "ca74f47c";
               src = prev.fetchFromGitHub {
-                owner = "mole99";
+                owner = "YosysHQ";
                 repo = "nextpnr";
-                rev = "f00c382ad918303d2c635b452fb948e3b1d244c4";
-                hash = "sha256-DiOgfEDLRNRBcdya0enT+uv1MH1O8CgBi5lS/Vjm2Ho=";
+                rev = "ca74f47c3f0f0d3f22b7a7e9920dafa589cc2f3e";
+                hash = "sha256-ybZiFL/c4W6OtXnAQhRbNtOQAHUJ+u3xcZYBmYYeWjA=";
                 fetchSubmodules = true;
               };
               cmakeFlags = [
@@ -56,18 +56,6 @@
                 # `Compatibility with CMake < 3.5 has been removed from CMake.`
                 "-DCMAKE_POLICY_VERSION_MINIMUM=3.5"
               ];
-            };
-          })
-          (final: prev: {
-            yosys = prev.yosys.overrideAttrs {
-              version = "2231c860";
-              src = prev.fetchGitHubSnapshot {
-                owner = "mole99";
-                repo = "yosys";
-                rev = "2231c860ec7afd8eef9ba97231c3a10950469e95";
-                hash = "sha256-OwLoMsdEmTvlrD7q7yU/rkLzX6h4GGB98OKzfRFFW/0=";
-                add-gitcommit = true;
-              };
             };
           })
         ];

@@ -1,7 +1,7 @@
 // SPDX-FileCopyrightText: © 2026 Leo Moser <leo.moser@pm.me>
 // SPDX-License-Identifier: Apache-2.0
 
-module tt_um_fabulous_ihp_26a (
+module tt_um_fabulous_ihp_26b (
     input  wire [7:0] ui_in,    // Dedicated inputs
     output wire [7:0] uo_out,   // Dedicated outputs
     input  wire [7:0] uio_in,   // IOs: Input path

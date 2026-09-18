@@ -9,7 +9,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Tiny FABulous FPGA for IHP26a.
+Tiny FABulous FPGA for IHP26b.
 
 This design implements a tiny FPGA with 168 LUT4+FF. The FPGA fabric is 9x5 tiles in size, of which 7x3 are LUT4x8_ha tiles.
 The logic cells include a vertical carry-chain in upwards direction, allowing for fast additions up to 23-bits.

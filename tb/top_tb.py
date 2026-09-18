@@ -111,7 +111,7 @@ if __name__ == "__main__":
         print("Error: EMULATION and GL can't be set at the same time.")
         sys.exit(1)
     
-    hdl_toplevel = "tt_um_fabulous_ihp_26a"
+    hdl_toplevel = "tt_um_fabulous_ihp_26b"
     
     tiles_path = Path(proj_path / ".." / "ip" / "fabulous-tiles")
     primitives_path = Path(tiles_path) / "primitives"
@@ -142,7 +142,7 @@ if __name__ == "__main__":
         defines["USE_POWER_PINS"] = False
     # RTL
     else:
-        sources.append(proj_path / f"../src/tt_um_fabulous_ihp_26a.sv")
+        sources.append(proj_path / f"../src/tt_um_fabulous_ihp_26b.sv")
         sources.append(proj_path / f"../ip/fabric_config/fabric_config.sv")
         sources.append(proj_path / f"../ip/fabric_bitbang/fabric_bitbang.sv")
     

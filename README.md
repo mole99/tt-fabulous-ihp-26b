@@ -1,9 +1,9 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg)
 
-# Tiny FABulous FPGA - IHP26a
+# Tiny FABulous FPGA - IHP26b
 
 - [Read the documentation for the project](docs/info.md)
-- [View the layout in your browser](https://gds-viewer.tinytapeout.com/?model=https://raw.githubusercontent.com/mole99/tt-fabulous-ihp-26a/refs/heads/main/gds/tt_um_fabulous_ihp_26a.gds&pdk=ihp-sg13g2)
+- [View the layout in your browser](https://gds-viewer.tinytapeout.com/?model=https://raw.githubusercontent.com/mole99/tt-fabulous-ihp-26b/refs/heads/main/gds/tt_um_fabulous_ihp_26b.gds&pdk=ihp-sg13g2)
 
 ## Requirements
 
