@@ -94,7 +94,7 @@ jobs:
       - name: Stitch the tiles
         run: |
           PDK=${{ matrix.pdk }} nix develop --command make ${{ matrix.fabrics }}
-          make copy-fabric
+          make ${{ matrix.fabrics }}-copy
       - name: Upload Macro Folder
         if: success() || failure()
         uses: actions/upload-artifact@v4
@@ -114,7 +114,7 @@ jobs:
       - name: Build TT FPGA
         run: |
           nix develop --command make tt-fabulous
-          make copy-tt
+          make tt-fabulous-copy
       - name: Simulate the FPGA RTL (Emulation)
         run: |
           EMULATION=top_counter PDK=${{ matrix.pdk }} TILE_LIBRARY=${{ env.TILE_LIBRARY }} FABRIC=${{ matrix.fabrics }} nix develop --command bash -c "cd tb; python3 top_tb.py"
