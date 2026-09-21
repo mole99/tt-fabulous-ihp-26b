@@ -15,7 +15,7 @@ from cocotb_tools.runner import get_runner
 from cocotb.types import LogicArray, Logic
 
 proj_path = Path(__file__).resolve().parent
-fabric = os.getenv("FABRIC", "tiny_fabric_9x5")
+fabric = os.getenv("FABRIC", "tiny_fabric_7x5")
 tile_library = os.getenv("TILE_LIBRARY", "tiny")
 
 async def upload_bitstream(dut, bitstream_path):

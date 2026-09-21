@@ -15,7 +15,7 @@ FRAME_SELECT_WIDTH = 5 # hardcoded, should be based on FABRIC_NUM_COLUMNS
 BITSTREAM_START = 0xFAB0FAB1
 DESYNC_FLAG = 20
 
-fabric = os.getenv("FABRIC", "tiny_fabric_9x5")
+fabric = os.getenv("FABRIC", "tiny_fabric_7x5")
 tile_library = os.getenv("TILE_LIBRARY", "tiny")
 
 async def zero_bitstream(dut, delay=10):

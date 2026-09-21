@@ -12,14 +12,14 @@ set_io all[7] X0Y1/B
 set_io all[8] X0Y1/C
 set_io all[9] X0Y1/D
 
-set_io all[10] X8Y3/A
-set_io all[11] X8Y3/B
-set_io all[12] X8Y3/C
-set_io all[13] X8Y3/D
-set_io all[14] X8Y1/A
-set_io all[15] X8Y1/B
-set_io all[16] X8Y1/C
-set_io all[17] X8Y1/D
+set_io all[10] X6Y3/A
+set_io all[11] X6Y3/B
+set_io all[12] X6Y3/C
+set_io all[13] X6Y3/D
+set_io all[14] X6Y1/A
+set_io all[15] X6Y1/B
+set_io all[16] X6Y1/C
+set_io all[17] X6Y1/D
 
 set_io all[18] X1Y4/A
 set_io all[19] X1Y4/B
@@ -44,14 +44,14 @@ set_io ui[5] X0Y1/B
 set_io ui[6] X0Y1/C
 set_io ui[7] X0Y1/D
 
-set_io uo[0] X8Y3/A
-set_io uo[1] X8Y3/B
-set_io uo[2] X8Y3/C
-set_io uo[3] X8Y3/D
-set_io uo[4] X8Y1/A
-set_io uo[5] X8Y1/B
-set_io uo[6] X8Y1/C
-set_io uo[7] X8Y1/D
+set_io uo[0] X6Y3/A
+set_io uo[1] X6Y3/B
+set_io uo[2] X6Y3/C
+set_io uo[3] X6Y3/D
+set_io uo[4] X6Y1/A
+set_io uo[5] X6Y1/B
+set_io uo[6] X6Y1/C
+set_io uo[7] X6Y1/D
 
 set_io uio[0] X1Y4/A
 set_io uio[1] X1Y4/B
@@ -77,15 +77,15 @@ set_io a[3] X0Y1/B
 set_io a[4] X0Y1/C
 set_io a[5] X0Y1/D
 
-set_io b[0] X8Y3/A
-set_io b[1] X8Y3/B
-set_io b[2] X8Y3/C
-set_io b[3] X8Y3/D
-set_io b[4] X8Y1/A
-set_io b[5] X8Y1/B
+set_io b[0] X6Y3/A
+set_io b[1] X6Y3/B
+set_io b[2] X6Y3/C
+set_io b[3] X6Y3/D
+set_io b[4] X6Y1/A
+set_io b[5] X6Y1/B
 
-set_io c[0] X8Y1/C
-set_io c[1] X8Y1/D
+set_io c[0] X6Y1/C
+set_io c[1] X6Y1/D
 
 set_io c[2] X1Y4/A
 set_io c[3] X1Y4/B
@@ -105,14 +105,14 @@ set_io d[3] X0Y1/B
 set_io d[4] X0Y1/C
 set_io d[5] X0Y1/D
 
-set_io d[6] X8Y3/A
-set_io d[7] X8Y3/B
-set_io d[8] X8Y3/C
-set_io d[9] X8Y3/D
-set_io d[10] X8Y1/A
-set_io d[11] X8Y1/B
-set_io d[12] X8Y1/C
-set_io d[13] X8Y1/D
+set_io d[6] X6Y3/A
+set_io d[7] X6Y3/B
+set_io d[8] X6Y3/C
+set_io d[9] X6Y3/D
+set_io d[10] X6Y1/A
+set_io d[11] X6Y1/B
+set_io d[12] X6Y1/C
+set_io d[13] X6Y1/D
 
 set_io d[14] X1Y4/A
 set_io d[15] X1Y4/B
@@ -131,11 +131,11 @@ set_io mult_a[2] X0Y3/C
 set_io mult_a[3] X0Y3/D
 set_io mult_a[4] X0Y1/A
 
-set_io mult_b[0] X8Y3/A
-set_io mult_b[1] X8Y3/B
-set_io mult_b[2] X8Y3/C
-set_io mult_b[3] X8Y3/D
-set_io mult_b[4] X8Y1/A
+set_io mult_b[0] X6Y3/A
+set_io mult_b[1] X6Y3/B
+set_io mult_b[2] X6Y3/C
+set_io mult_b[3] X6Y3/D
+set_io mult_b[4] X6Y1/A
 
 set_io product[0] X1Y4/A
 set_io product[1] X1Y4/B

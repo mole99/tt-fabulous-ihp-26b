@@ -13,8 +13,8 @@ CLOCK_PORT: clk
 CLOCK_PERIOD: 10 # 10ns = 100MHz
 
 FP_SIZING: "absolute"
-DIE_AREA: [0, 0, 1724.160, 710.640]
-FP_DEF_TEMPLATE: dir::src/tt_block_8x4_pgvdd.def
+DIE_AREA: [0, 0, 1289.280, 710.640]
+FP_DEF_TEMPLATE: dir::src/tt_block_6x4_pgvdd.def
 
 PDN_CFG: dir::src/pdn_cfg.tcl
 PDN_EXTEND_TO: "boundary"
@@ -43,20 +43,20 @@ LEFT_MARGIN_MULT: 4
 RIGHT_MARGIN_MULT: 1
 
 FP_OBSTRUCTIONS:
-- [expr::(0.48 * (3492 + 80)), 0, "expr::$DIE_AREA[2]", "expr::($DIE_AREA[3] - (0.42 * 81))"]
+- [expr::(0.48 * (2604)), 0, "expr::$DIE_AREA[2]", "expr::($DIE_AREA[3] - (0.42 * 81))"]
 
 MACROS:
-  tiny_fabric_9x5:
+  tiny_fabric_7x5:
     gds:
-      - dir::fabrics/tiny_fabric_9x5/macro/ihp-sg13g2/gds/tiny_fabric_9x5.gds
+      - dir::fabrics/tiny_fabric_7x5/macro/ihp-sg13g2/gds/tiny_fabric_7x5.gds
     lef:
-      - dir::fabrics/tiny_fabric_9x5/macro/ihp-sg13g2/lef/tiny_fabric_9x5.lef
+      - dir::fabrics/tiny_fabric_7x5/macro/ihp-sg13g2/lef/tiny_fabric_7x5.lef
     nl:
-      - dir::fabrics/tiny_fabric_9x5/macro/ihp-sg13g2/nl/tiny_fabric_9x5.nl.v
+      - dir::fabrics/tiny_fabric_7x5/macro/ihp-sg13g2/nl/tiny_fabric_7x5.nl.v
     instances:
-      tiny_fabric_9x5:
+      tiny_fabric_7x5:
         location: [expr::(0.48 * 88), expr::(0.42 * 1)] # expr::(0.42 * 27)
         orientation: FS
 
 PDN_MACRO_CONNECTIONS:
-- "tiny_fabric_9x5 VPWR VGND VPWR VGND"
+- "tiny_fabric_7x5 VPWR VGND VPWR VGND"

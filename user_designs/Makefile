@@ -1,5 +1,5 @@
 export PDK 		?= ihp-sg13g2
-export FABRIC 		?= tiny_fabric_9x5
+export FABRIC 		?= tiny_fabric_7x5
 export TILE_LIBRARY 	?= tiny
 
 $(info $(PDK))
